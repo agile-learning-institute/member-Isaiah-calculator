@@ -13,7 +13,7 @@
             input = inputScreen.innerHTML;
 
             switch (btnValue) {
-                case "C":
+                case "CLEAR":
                     inputScreen.innerHTML = "";
                     decimalAdded = false;
                     break;
