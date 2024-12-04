@@ -122,14 +122,15 @@ body {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
-    background-color: #fff;
+    background: #184357;
+    background: linear-gradient(#1d2127, #669cb5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .screen {
-    height: 50px;
-    background-color: #222;
-    color: #fff;
+    height: 45px;
+    background-color: #a2a2a2;
+    color: #000000;
     text-align: right;
     padding: 10px;
     font-size: 24px;
@@ -137,7 +138,7 @@ body {
     margin-bottom: 10px;
 }
 
-.buttons {
+.keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
